@@ -3,7 +3,7 @@ import {
   createStyles
 } from "@material-ui/core/styles";
 
-export default (theme: Theme) => createStyles({
+const styles =(theme: Theme) => createStyles({
   dialog: {
     "& .MuiDialog-paper": {
       background: '#36393F !important',
@@ -70,3 +70,5 @@ export default (theme: Theme) => createStyles({
     }
   }
 })
+
+export default styles

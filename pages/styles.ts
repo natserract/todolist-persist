@@ -3,7 +3,7 @@ import {
   createStyles
 } from "@material-ui/core/styles";
 
-export default (theme: Theme) => createStyles({
+const styles = (theme: Theme) => createStyles({
   container: {},
   inputName: {
     position: 'relative',
@@ -61,3 +61,5 @@ export default (theme: Theme) => createStyles({
     }
   }
 })
+
+export default styles

@@ -3,7 +3,7 @@ import {
   createStyles
 } from "@material-ui/core/styles";
 
-export default (theme: Theme) => createStyles({
+const styles = (theme: Theme) => createStyles({
   root: {
     minWidth: 367,
     height: 142,
@@ -70,3 +70,4 @@ export default (theme: Theme) => createStyles({
     }
   }
 })
+export default styles

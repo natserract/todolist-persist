@@ -3,7 +3,7 @@ import {
   createStyles
 } from "@material-ui/core/styles";
 
-export default (theme: Theme) => createStyles({
+const styles = (theme: Theme) => createStyles({
   layout: { 
     position: 'relative',
     maxWidth: 480,
@@ -19,3 +19,5 @@ export default (theme: Theme) => createStyles({
     flexDirection: 'column',
   },
 })
+
+export default styles

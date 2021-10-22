@@ -1,12 +1,9 @@
 ## Tools Used
 This project using various tools
-- [GraphQL](https://graphql.org/learn/),
 - [TypeScript](https://www.typescriptlang.org/docs/),
 - [React](https://reactjs.org/docs/getting-started.html),
-- [Next.js](https://nextjs.org/),
-- [Apollo Client for React](https://www.apollographql.com/docs/react/),
-- [React Hook Form](https://react-hook-form.com/),
-- [GraphQL Code Generator](https://github.com/dotansimha/graphql-code-generator), etc)
+- [Redux](https://redux.js.org/),
+- [Redux Persist](https://github.com/rt2zz/redux-persist),
 
 ## Getting Started
 Create .env file for application environments

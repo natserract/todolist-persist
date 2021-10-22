@@ -3,7 +3,7 @@ import {
   createStyles
 } from "@material-ui/core/styles";
 
-export default (theme: Theme) => createStyles({
+const styles = (theme: Theme) => createStyles({
   loading: {
     fontSize: '5rem',
     height: '5rem',
@@ -19,3 +19,5 @@ export default (theme: Theme) => createStyles({
     justifyContent: 'center',
   },
 })
+
+export default styles
