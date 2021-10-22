@@ -21,7 +21,10 @@ const palette = {
   common: colors,
 }
 
-export default {
+const configs = {
   colors,
   palette
 }
+
+
+export default configs
